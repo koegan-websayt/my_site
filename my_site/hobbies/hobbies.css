@@ -1,0 +1,46 @@
+.subtitle {
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+header {
+    margin-top: 20px;
+    background: rgb(78, 134, 236);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 3px;
+}
+
+section { 
+    padding: 25px; 
+}
+
+.hobby {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 4px solid rgb(78, 134, 236);
+    background: #f8f9fa;
+    border-radius: 0 8px 8px 0;
+}
+
+.hobby:hover {
+    background: #edf2ff;
+    transform: translateX(5px);
+    transition: all 0.3s;
+}
+
+.icon {
+    font-size: 29px;
+    margin-right: 10px;
+}
+
+
