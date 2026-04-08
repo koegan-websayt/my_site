@@ -24,6 +24,18 @@ body {
     transform: scale(1.5) translate(8px, 8px);
 }
 
+.menu {
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    margin-right: 80px;
+}
+
+.under_menu a {
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    margin-right: 80px;
+}
+
 .block_menu {
     gap: 10%;
     width: 100%;
@@ -34,12 +46,17 @@ body {
     margin-top: 0.3%;
 }
 
-.under_menu a {
+.header ul li a{
     color: rgb(255, 255, 255);
-    letter-spacing: 3px;
-    margin-right: 75px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
+.block_menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
 
 .header ul li a:hover {
     color: rgb(194, 191, 199);
